@@ -1,0 +1,36 @@
+# .gitignore for Visual Studio Code and C# projects
+
+# User-specific files
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Compiled and generated files
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Visual Studio Code directories
+.vscode/
+
+# .NET Sdk
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# User-specific files (Mono)
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
